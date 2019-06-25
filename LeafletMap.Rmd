@@ -1,0 +1,28 @@
+---
+title: "Leaflet Interactive Map"
+author: "Cynthia Tang"
+date: "June 25, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The map
+### 2019-06-25
+
+```{r map, warning=FALSE, message=FALSE}
+library(leaflet)
+df <- data.frame(lng = c(120.143898, 120.097363, 120.073278, 120.062834, 120.019759),
+                 lat = c(30.250362,30.245871, 30.308249, 30.272572, 30.286888),
+                 names = c("West Lake", "Lingyin Temple", "Zhejiang University", 
+                           "Xixi National Wetland Park", "Alibaba"),
+                 range = c(2.8, 0.9, 2.1, 4.4, 0.9))
+df %>% leaflet() %>%
+        addTiles() %>%
+        addMarkers(popup = df$names) %>%
+        addCircles(radius = df$range*500)
+
+```
+
