@@ -1,0 +1,20 @@
+---
+title: "Plotly Interactive Map"
+author: "Cynthia Tang"
+date: "June 25, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The Plotly Map
+#### 2019-06-25  
+```{r amp, message=FALSE, warning=FALSE}
+library(plotly)
+plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter", mode = "markers",
+        color = ~as.factor(am)) %>%
+layout(title = "The relationship between MPG and weight aggregated by transmission")
+```
+
