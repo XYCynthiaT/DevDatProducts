@@ -1,2 +1,3 @@
-# DevDatProducts
-Course 9 Developing data products
+## DevDatProducts
+
+Developing Data Products
