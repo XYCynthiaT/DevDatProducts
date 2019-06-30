@@ -1,8 +1,6 @@
-Diamond Pprice Plotter Pitch Presentation
+Diamond Price Plotter Pitch Presentation
 ========================================================
 author: Cynthia Tang 
-width: 1440
-height: 900
 date: June 30, 2019
 autosize: true
 
