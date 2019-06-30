@@ -2,7 +2,7 @@
 
 Developing Data Products
 
-repo: https://github.com/XYCynthiaT/DevDatProducts
+repo: https://xycynthiat.github.io/DevDatProducts
 
 Contains:
 * Shiny app: DiamondPrice
