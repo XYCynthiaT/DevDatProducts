@@ -37,26 +37,26 @@ shinyUI(
                                 submitButton("Go"),
                                 h3("Info of Diamonds Dataset"),
                                 helpText("A dataset containing the prices and other attributes of almost 54,000 diamonds. The variables are as follows:"),
-                                helpText("price: \n price in US dollars ($326-$18,823)"),
-                                helpText("carat: \n weight of the diamond (0.2-5.01)"),
-                                helpText("cut: \n quality of the cut (Fair, Good, Very Good, Premium, Ideal)"),
-                                helpText("color: \n diamond colour, from J (worst) to D (best)"),
-                                helpText("clarity: \n a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))"),
-                                helpText("x: \n length in mm (0-10.74)"),
-                                helpText("y: \n width in mm (0-58.9)"),
-                                helpText("z: \n depth in mm (0-31.8)"),
-                                helpText("depth: \n total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43-79)"),
-                                helpText("table: \n width of top of diamond relative to widest point (43-95)")
+                                p("price: \n price in US dollars ($326-$18,823)"),
+                                p("carat: \n weight of the diamond (0.2-5.01)"),
+                                p("cut: \n quality of the cut (Fair, Good, Very Good, Premium, Ideal)"),
+                                p("color: \n diamond colour, from J (worst) to D (best)"),
+                                p("clarity: \n a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))"),
+                                p("x: \n length in mm (0-10.74)"),
+                                p("y: \n width in mm (0-58.9)"),
+                                p("z: \n depth in mm (0-31.8)"),
+                                p("depth: \n total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43-79)"),
+                                p("table: \n width of top of diamond relative to widest point (43-95)")
                         ),
                         mainPanel(
                                 h1("The plot"),
                                 plotOutput("plot", height = "800px" ),
                                 h3("Documentation"),
-                                helpText("The Diamond Price Plotter is a tool used to plot the relationship between diamond price and other variables."),
-                                helpText("Users can customize the sample size, x-axis, transparency and color of the points. The default plot type is a scatter plot."),
-                                helpText("Furthermore, users can display a linear regression line or boxplot and use facet to plot multiple plots in rows and columns."),
-                                helpText("Once variables changed, click \"Go\" to generate a new plot."),
-                                helpText("Created as part of the coursera course << Developing Data Products >>")
+                                p("The Diamond Price Plotter is a tool used to plot the relationship between diamond price and other variables."),
+                                p("Users can customize the sample size, x-axis, transparency and color of the points. The default plot type is a scatter plot."),
+                                p("Furthermore, users can display a linear regression line or boxplot and use facet to plot multiple plots in rows and columns."),
+                                p("Once variables changed, click \"Go\" to generate a new plot."),
+                                p("Created as part of the coursera course << Developing Data Products >>")
                         )
                 )
         )
