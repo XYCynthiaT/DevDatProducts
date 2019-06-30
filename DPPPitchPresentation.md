@@ -130,5 +130,6 @@ shinyServer(function(input, output) {
 Sample Inerface of the App
 ========================================================
 
-Link: [Diamond Price Plotter](https://xctang.shinyapps.io/DiamondPrice/)
+Link: [Diamond Price Plotter](https://xctang.shinyapps.io/DiamondPrice/); 
+[Github repo](https://github.com/XYCynthiaT/DevDatProducts/tree/master/DiamondPrice)
 ![alt text](DiamondPrice.png)
