@@ -1,0 +1,12 @@
+name: DiamondPrice
+title: DiamondPrice
+username:
+account: xctang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1005085
+bundleId: 2188595
+url: https://xctang.shinyapps.io/DiamondPrice/
+when: 1561887735.12882
+asMultiple: FALSE
+asStatic: FALSE
